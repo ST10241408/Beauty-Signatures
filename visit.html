@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Book a visit</title>
+</head>
+<body>
+    <section class="header">
+
+        <a href="#" class="logo"> Beauty  Signatures </a>
+     
+        <nav class="navbar">
+           <div id="close-navbar" class="fas fa-times"></div>
+           <a href="index.html">home</a>
+           <a href="about us.html">About Us</a>
+           <a href="services.html">Services</a>
+           <a href="pricing.html">Pricing</a>
+           <a href="visit.html">Book a visit</a>
+        </nav>
+     
+        <div id="menu-btn" class="fas fa-bars"></div>
+     
+     </section>
+<!-- header -->
+
+
+    <!-- visit -->
+
+<section class="visit" id="visit">
+
+    <h1 class="heading"> Book Now</h1>
+
+        <div class="row">
+    
+                <form action="submit_booking.php" method="post" id="bookForm">
+                    
+                <h3>book your first visit today</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Your name" required>
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="Your e-mail" required>
+                </div>
+                <div class="inputBox">
+                     
+           <select id="service" name="service" required> <br>
+             <option value="service00">Pick a service below</option>
+            <option value="service1">Knotless braids</option>
+            <option value="service2">Faux locs</option>
+            <option value="service3">eyebrow tint</option>
+            <option value="service4">classic lashes</option>
+            <option value="service5">natural hybird</option>
+            <option value="service6">volume hybird</option>
+            <option value="service7">extra volume hybird</option>
+            <option value="service8">Braids</option>
+            <option value="service9">straight-up</option>
+            <option value="service10">lash removal</option>
+            <option value="service11">free-hand</option>
+            <option value="service12">nails</option>
+            <option value="service13">consultation</option>
+            <option value="service14">home appointment</option>
+
+
+
+        </select>
+ </div>
+        <div class="inputBox">
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required><br>
+        </div>
+
+        <div class="inputBox">
+        <label for="time">Select Time:</label>
+        <input type="time" id="time" name="time" required><br>
+        </div>
+
+        
+                <div class="inputBox">
+                    <input type="text" placeholder="Message" required>
+                </div>
+                <h2>Feel free to contact us for other custom hair styles.</h2>
+                
+                <input type="submit" value="Book Now" class="btn" onclick="myFunction()">
+                
+              
+            </form>
+    
+            <div class="image">
+                <img src="assets/brand logo.png" alt="">
+            </div>
+            
+        </div>
+        
+</section>
+
+<!-- visit end-->
+
+<!-- reviews -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">Customer's Review</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="assets/quote-img.png" alt="" class="quote">
+            <p>Recently went to go do my lashes at the Beauty Signatures salon and I definetly reccommend  it. If you are looking for a place where  you feel comfortable and taken care of and treated with respect then go there.Dont miss out!!</p>
+            <img src="assets/lashes.jpg" class="user" alt="">
+            <h3>Customer 1</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/quote-img.png" alt="" class="quote">
+            <p>Loving my new set of nails, made by yours truly Beauty Signatures.</p>
+            <img src="assets/nails.jpg" class="user" alt="">
+            <h3>Customer 2</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="assets/quote-img.png" alt="" class="quote">
+            <p>First time getting braids and Im in love with them already.</p>
+            <img src="assets/knotless braids.jpg" class="user" alt="">
+            <h3>Customer 3</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reviews end -->
+
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+ 
+        
+            
+        
+
+       <div class="box">
+          <h3>Check us out on the socials: </h3>
+          <div class="share">
+             <a href="#" class="fab fa-facebook-f"></a>
+             <a href="#" class="fab fa-twitter"></a>
+             <a href="#" class="fab fa-instagram"></a>
+             <a href="#" class="fab fa-linkedin"></a>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <h3>contact us</h3>
+          <p>+27 (0) 681 017 880</p>
+          <a href="#" class="link">adonaymushilange@gmail.com</a>
+       </div>
+ 
+       <div class="box">
+          <h3>where to find us:</h3>
+          <p>279 Marshall and Kruger street <br>
+            Maboneneg craftsmanship building  <br>
+            Beauty Signatures Salon <br>
+            Johannesburg <br>
+            South Africa</p>
+       </div>
+ 
+    </div>
+    <div class="box">
+        <h3>Like you look so cute rn :)</h3>
+     <p>&copy;Beauty Signatures. All Rights Reserved | since 2023</p>
+     <p>The creative behind the scenes</p>
+  </div>
+  
+ 
+ </section>
+
+
+
+
+
+<!-- footer end-->
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
